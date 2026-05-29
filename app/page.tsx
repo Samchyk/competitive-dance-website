@@ -48,7 +48,7 @@ export default function Home() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
               <Link
-                href="/classes"
+                href="/contact"
                 className="px-8 py-3 bg-white text-black font-medium rounded-md hover:bg-white/90 transition-all duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl"
               >
                 Kezdj most

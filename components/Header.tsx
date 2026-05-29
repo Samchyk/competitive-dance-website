@@ -10,9 +10,6 @@ export function Header() {
   const navLinks = [
     { href: '/', label: 'Kezdőlap' },
     { href: '/about', label: 'Rólunk' },
-    { href: '/classes', label: 'Órák' },
-    { href: '/teachers', label: 'Oktatók' },
-    { href: '/events', label: 'Versenyek' },
     { href: '/blog', label: 'Blog' },
     { href: '/contact', label: 'Kapcsolat' },
   ]
