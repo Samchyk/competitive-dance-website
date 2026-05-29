@@ -12,7 +12,6 @@ export const metadata = {
 
 export default function BlogIndex() {
   const posts = getAllBlogPosts()
-  const categories = Array.from(new Set(posts.map(p => p.category)))
 
   const featuredPost = posts[0]
   const otherPosts = posts.slice(1)
@@ -85,25 +84,6 @@ export default function BlogIndex() {
           </div>
         </section>
       )}
-
-      {/* Categories */}
-      <section className="py-8 px-4 sm:px-6 lg:px-8 bg-secondary/5">
-        <div className="max-w-6xl mx-auto">
-          <div className="flex flex-wrap gap-2">
-            <button className="px-4 py-2 bg-primary text-primary-foreground rounded-full text-sm font-semibold hover:bg-primary/90 transition-colors">
-              Összes Cikk
-            </button>
-            {categories.map((category) => (
-              <button
-                key={category}
-                className="px-4 py-2 border-2 border-border text-foreground rounded-full text-sm font-semibold hover:border-primary hover:bg-primary/5 transition-all"
-              >
-                {category}
-              </button>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Posts Grid */}
       <section className="py-20 sm:py-28 px-4 sm:px-6 lg:px-8">

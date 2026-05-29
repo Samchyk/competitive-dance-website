@@ -16,10 +16,7 @@ export default function Terms() {
           <div>
             <h1 className="text-5xl font-serif font-bold text-foreground mb-4">
               Felhasználási Feltételek
-            </h1>
-            <p className="text-foreground/70">
-              Utolsó frissítés: 2024
-            </p>
+            </h1> 
           </div>
 
           <div className="prose prose-invert max-w-none space-y-6 text-foreground/80">

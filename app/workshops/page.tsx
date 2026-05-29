@@ -15,7 +15,6 @@ export default function Workshops() {
       instructor: 'Soós Mária',
       duration: '4 hétvége',
       level: 'Közép - Haladó',
-      price: '25.000 Ft',
       description: 'Fejlett technikák és versenyfeladatok az elit szintről tanítva',
       maxParticipants: '20',
       highlights: ['Személyre szabott visszajelzés', 'Versenyfeladat praxis', 'Videó analízis'],
@@ -25,7 +24,6 @@ export default function Workshops() {
       instructor: 'Nagy István',
       duration: '6 hét',
       level: 'Kezdő - Közép',
-      price: '18.000 Ft',
       description: 'A latin tánc alapjainak teljes bevezetése és ritmusmérnöksége',
       maxParticipants: '25',
       highlights: ['Ritmusok megtanulása', 'Hip mozgások', 'Koreográfia alapok'],
@@ -35,7 +33,6 @@ export default function Workshops() {
       instructor: 'Kovács Zsuzsanna',
       duration: '8 hétvége',
       level: 'Összes szint',
-      price: '28.000 Ft',
       description: 'Fejlessz meghaladó technikákat, amelyek a tánc formáit és rugalmasságát javítják',
       maxParticipants: '15',
       highlights: ['Tornagyakorlatok', 'Fluiditáselmélet', 'Versenyfeladat adaptáció'],
@@ -126,10 +123,7 @@ export default function Workshops() {
                     </ul>
                   </div>
 
-                  {/* Date and Price */}
                   <div className="pt-4 border-t border-border mt-auto">
-          
-                    <p className="text-2xl font-bold text-primary mb-4">{workshop.price}</p>
                     <button className="w-full px-4 py-2 bg-primary text-primary-foreground font-semibold rounded-md hover:bg-primary/90 transition-colors">
                       Feliratkozás
                     </button>

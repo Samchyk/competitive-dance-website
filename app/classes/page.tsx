@@ -1,7 +1,7 @@
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import Image from 'next/image'
-import { Clock, Users, Zap, Calendar } from 'lucide-react'
+import { Clock, Users, Calendar } from 'lucide-react'
 
 export const metadata = {
   title: 'Órák | Versenytánc',
@@ -18,7 +18,6 @@ export default function Classes() {
       time: '18:00 - 19:00',
       capacity: '15 fő',
       description: 'Az alapvető technikák és ritmusok megtanulása',
-      price: '5.000 Ft/hó',
     },
     {
       title: 'Közép Szint',
@@ -28,7 +27,6 @@ export default function Classes() {
       time: '19:00 - 20:15',
       capacity: '12 fő',
       description: 'Fejlett technikák és koreográfia fejlesztés',
-      price: '7.000 Ft/hó',
     },
     {
       title: 'Haladó Verseny',
@@ -38,7 +36,6 @@ export default function Classes() {
       time: '10:00 - 11:30',
       capacity: '10 fő',
       description: 'Versenyfeladatok és profi szintű edzés',
-      price: '9.000 Ft/hó',
     },
     {
       title: 'Egyéni Oktatás',
@@ -48,7 +45,6 @@ export default function Classes() {
       time: 'Egyéni egyeztetéssel',
       capacity: '1 fő',
       description: 'Személyre szabott tanítás és fejlesztés',
-      price: '3.000 Ft/alkalom',
     },
   ]
 
@@ -121,19 +117,12 @@ export default function Classes() {
                     <p className="font-semibold text-foreground">{classItem.time}</p>
                   </div>
 
-                  <div className="grid grid-cols-2 gap-4 pt-2">
+                  <div className="pt-2">
                     <div className="flex items-center gap-2">
                       <Users className="w-5 h-5 text-primary" />
                       <div>
                         <p className="text-xs text-foreground/60">Kapacitás</p>
                         <p className="font-semibold text-foreground">{classItem.capacity}</p>
-                      </div>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <Zap className="w-5 h-5 text-secondary" />
-                      <div>
-                        <p className="text-xs text-foreground/60">Ár</p>
-                        <p className="font-semibold text-foreground">{classItem.price}</p>
                       </div>
                     </div>
                   </div>
