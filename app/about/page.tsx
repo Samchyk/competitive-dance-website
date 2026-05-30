@@ -148,7 +148,7 @@ export default function About() {
                   />
                 </div>
                 <h3 className="font-serif text-xl font-semibold text-foreground mb-1">
-                  Csapatagat
+                  Hungaryversenytanc
                 </h3>
                 <p className="text-sm text-foreground/60 mb-3">
                   Oktatási szakértő

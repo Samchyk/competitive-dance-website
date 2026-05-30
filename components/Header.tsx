@@ -23,7 +23,7 @@ export function Header() {
             <div className="w-8 h-8 bg-primary rounded flex items-center justify-center">
               <span className="text-primary-foreground font-serif text-lg font-bold">H</span>
             </div>
-            <span className="font-serif text-xl font-bold text-foreground hidden sm:inline">
+            <span className="font-serif text-xl font-bold text-foreground  sm:inline">
               Hungaryversenytanc
             </span>
           </Link>
